@@ -1,0 +1,36 @@
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('LearningCurve_OT-webfont.eot');
+    src: url('LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('LearningCurve_OT-webfont.woff') format('woff'),
+         url('LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+body{
+    background-image: url(fond.jpg);
+}
+li /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+}
+
+p{
+    color: #7a304b;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    width:500px;
+    padding-left: 20px;
+    border: solid 1px red;
+    margin-bottom: 20px;
+    box-shadow: 3px 4px 3px black;
+}
+
+img{
+    box-shadow: 3px 4px 3px black;
+    border-radius: 50%;
+}
